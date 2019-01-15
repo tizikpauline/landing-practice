@@ -16,6 +16,14 @@ header ul {
   margin-bottom: 16vw;
 }
 
+.logo img {
+  width: 10vw;
+}
+
+.burger-menu img {
+  width: 10vw;
+}
+
 h1 {
   font-weight: bold;
   line-height: 9rem;
@@ -105,6 +113,22 @@ a {
 .advantages img {
   margin-bottom: 3vw;
   margin-top: 3vw;
+}
+
+.fast img {
+  width: 25vw;
+}
+
+.reliably img {
+  width: 25vw;
+}
+
+.checked img {
+  width: 25vw;
+}
+
+.easy img {
+  width: 25vw;
 }
 
 .advantages h2 {
@@ -204,23 +228,97 @@ h2 {
 .small-business, .serious-business {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: left;
 
   background: #FFFFFF;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
   border-radius: 3px;
   width: 70%;
-  height: 85vw;
+  height: 92vw;
 
   margin-bottom: 8vw;
 }
 
-.small-business, .serious-business h3 {
+.small-business h3, .serious-business h3 {
+  margin-top: 6vw;
+  margin-bottom: 2vw;
+  margin-left: 5vw;
+
   font-weight: normal;
 
   line-height: 5.4rem;
   font-size: 4.5rem;
+  text-align: left;
 
   color: #000000;
+}
+
+.small-business p, .serious-business p {
+  margin-left: 5vw;
+
+  font-weight: bold;
+  line-height: 9.6rem;
+  font-size: 8rem;
+  text-align: left;
+
+  color: #000000;
+}
+
+.small-business button, .serious-business button {
+  margin-left: 5vw;
+
+  font-weight: bold;
+
+  line-height: 5.4rem;
+  font-size: 4.5rem;
+
+  width: 40%;
+  height: 9vw;
+  background: #FFAC3E;
+  border-radius: 2px;
+  border-style: none;
+}
+
+.serious-business ul {
+  width: 45vw;
+  margin-left: 10vw;
+}
+
+.serious-business li {
+  font-weight: normal;
+  line-height: 6rem;
+  font-size: 5rem;
+
+  list-style-type: disc;
+  color: #FFAC3E;
+
+  padding-bottom: 3vw;
+}
+
+span {
+  font-weight: normal;
+  line-height: 4.8rem;
+  font-size: 4rem;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-top: 10vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+footer p {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3.6rem;
+  font-size: 3rem;
+
+  color: rgba(0, 0, 0, 0.5);
 }
