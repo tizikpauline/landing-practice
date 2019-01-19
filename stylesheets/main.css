@@ -25,7 +25,7 @@ h1 {
 
   color: #000000;
 
-  margin-bottom: 8vw;
+  margin-bottom: 7vw;
 }
 
 .info p, .advantages p, .review p {
@@ -140,12 +140,15 @@ h2 {
 }
 
 .review {
+  background-color: #383856;
+  padding-top: 2vw;
+}
+
+.reviews {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  background-color: #383856;
 
   padding-bottom: 4vw;
 }
@@ -337,6 +340,7 @@ footer p {
     justify-content: space-between;
     align-items: flex-start;
     text-align: left;
+    margin: 0 6vw 10vw 6vw;
   }
 
   .info p, h1 {
@@ -345,6 +349,7 @@ footer p {
 
   .info img {
     display: block;
+    margin-top: -6vw;
   }
 
   .info a {
@@ -352,14 +357,18 @@ footer p {
   }
 
   h1 {
-    font-size: 5rem;
-    line-height: 6rem;
-    float: left;
+    font-size: 4.5rem;
+    line-height: 5.4rem;
+    text-align: left;
+  }
+
+  .advantages h1 {
+    margin-left: 6vw;
   }
 
   .info p {
-    font-size: 3rem;
-    line-height: 3.6rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
 
   .info a {
@@ -373,14 +382,20 @@ footer p {
     border-radius: 4px;
   }
 
+  .advantages {
+    display: flex;
+    flex-direction: column;
+  }
+
   .grid-advantages {
     display: grid;
-    grid-template-columns: 35vw 35vw;
-    grid-template-rows: 46vw 46vw;
-    grid-column-gap: 10em;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 48vw 48vw;
+    grid-column-gap: 8em;
     grid-row-gap: 10em;
 
-    margin-top: 18vw;
+    margin-top: 0;
+    margin-bottom: 10vw;
   }
 
   .fast, .reliably, .checked, .easy {
@@ -390,20 +405,61 @@ footer p {
     justify-content: center;
     text-align: center;
     align-content: center;
-
     background: #FFFFFF;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
     border-radius: 3px;
-    width: 35vw;
-    height: 46vw;
-
-    margin-bottom: 8vw;
+    width: 40vw;
+    height: 48vw;
+    margin-bottom: 0;
+    padding-top: 3vw;
   }
 
   .advantages h1 {
     display: block;
-    font-size: 5rem;
-    line-height: 6rem;
-    margin-bottom: 4vw;
+  }
+
+  .advantages p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: 25vw;
+  }
+
+  .reviews {
+    display: grid;
+    grid-template-columns: 42vw 42vw;
+    grid-template-rows: 35vw 35vw;
+    grid-column-gap: 5em;
+    grid-row-gap: 5em;
+  }
+
+  .review-1, .review-2, .review-3 {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    width: 42vw;
+    height: 35vw;
+
+    margin-bottom: 7vw;
+  }
+
+  .review h1 {
+    margin-left: 6vw;
+  }
+
+  .review h3 {
+    line-height: 3.6rem;
+    font-size: 3rem;
+    width: 38vw;
+    margin-bottom: 5vw;
+  }
+
+  .review p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .quote {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 3vw;
   }
 }
