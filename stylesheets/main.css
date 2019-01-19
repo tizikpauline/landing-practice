@@ -33,9 +33,7 @@ h1 {
   line-height: 5.4rem;
   font-size: 4.5rem;
   text-align: center;
-
   color: rgba(0, 0, 0, 0.5);
-
   margin-bottom: 8vw;
 }
 
@@ -262,9 +260,7 @@ h2 {
 
 .small-business button, .serious-business button {
   margin-left: 5vw;
-
   font-weight: bold;
-
   line-height: 5.4rem;
   font-size: 4.5rem;
 
@@ -285,7 +281,6 @@ h2 {
   font-weight: normal;
   line-height: 6rem;
   font-size: 5rem;
-
   list-style-type: disc;
   color: #FFAC3E;
 
@@ -522,7 +517,6 @@ footer p {
   }
 
   .small-business button, .serious-business button {
-
     font-size: 2.5rem;
     line-height: 3rem;
 
