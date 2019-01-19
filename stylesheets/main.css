@@ -180,12 +180,13 @@ h2 {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   width: 70%;
-  height: 55vw;
+  height: 58vw;
 
   margin-bottom: 7vw;
 }
 
 .quote {
+  width: 5vw;
   margin-top: 5vw;
   margin-bottom: 5vw;
   margin-left: 3vw;
@@ -199,6 +200,7 @@ h2 {
 }
 
 .person img {
+  width: 5vw;
   margin-left: 6vw;
   margin-right: 3vw;
 }
@@ -427,7 +429,7 @@ footer p {
   .reviews {
     display: grid;
     grid-template-columns: 42vw 42vw;
-    grid-template-rows: 35vw 35vw;
+    grid-template-rows: 32vw 32vw;
     grid-column-gap: 5em;
     grid-row-gap: 5em;
   }
@@ -436,7 +438,7 @@ footer p {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     width: 42vw;
-    height: 35vw;
+    height: 32vw;
 
     margin-bottom: 7vw;
   }
@@ -458,8 +460,79 @@ footer p {
   }
 
   .quote {
+    width: 3.5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
     margin-left: 3vw;
+  }
+
+  .person img {
+    width: 3.5vw;
+  }
+
+  .price h1 {
+    margin-left: 6vw;
+  }
+
+  .business {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+
+  .business h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2.5vw;
+    margin-top: 3vw;
+  }
+
+  .business p {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+
+  span {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .small-business, .serious-business {
+    width: 46%;
+    height: 68vw;
+  }
+
+  .small-business ul, .serious-business ul {
+    width: 30vw;
+    margin-left: 7vw;
+    margin-bottom: 6vw;
+  }
+
+  .small-business li, .serious-business li {
+    line-height: 3rem;
+    font-size: 2.5rem;
+  }
+
+  hr {
+    width: 78%;
+    height: 0.2vw;
+  }
+
+  .small-business button, .serious-business button {
+
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+    width: 40%;
+    height: 6vw;
+    border-radius: 5px;
+  }
+
+  footer p {
+    line-height: 2.4rem;
+    font-size: 2rem;
   }
 }
